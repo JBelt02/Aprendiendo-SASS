@@ -1,0 +1,44 @@
+$background :url("fondo.jpg");
+$top :5%;
+$left:30%;
+$top2 :15%;
+body{
+    background-image: $background;
+    
+
+    div.pos{
+        
+        float:left;
+        position:relative;
+        margin-left: $left;
+        
+    }
+    div.poss{
+        
+        float:left;
+        position:relative;
+        
+        
+    }
+    div.flex{
+        display: flex;
+        
+    }
+    div.marg{
+        display: flex;
+        margin-top: $top ;
+    }
+    h2.est{
+        margin-top: $top;
+    }
+    h2.cont{
+        margin-top: $top2;
+    }
+    img.h1{
+        padding-left: 10%
+    }
+    h1.h1{
+        padding-left: 10%
+    }
+    
+}
