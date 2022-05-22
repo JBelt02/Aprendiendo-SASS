@@ -1,0 +1,7 @@
+$colors: green , blue ,red , pink , yellow , orange , grey ; 
+
+@for $i from 1 through 7 { 
+    tr:nth-child(#{$i}){
+        background-color: nth($colors,$i);
+    }
+}

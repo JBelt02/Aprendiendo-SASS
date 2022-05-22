@@ -1,0 +1,12 @@
+$i : false ; 
+
+@if $i {
+    body{
+        background-color: black;
+    }
+}
+@else{
+    body{
+        background-color: white;
+    }
+}

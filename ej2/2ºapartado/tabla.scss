@@ -1,0 +1,7 @@
+$size: 10px,20px,40px,60px,80px,100px;
+
+@for $i from 1 through 6 { 
+    h1:nth-child(#{$i}){
+        font-size: nth($size,$i);
+    }
+}

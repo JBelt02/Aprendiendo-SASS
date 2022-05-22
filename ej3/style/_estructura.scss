@@ -1,0 +1,41 @@
+@use 'variables';
+body{
+    background-image: variables.$background;
+    
+
+    div.pos{
+        
+        float:left;
+        position:relative;
+        margin-left: variables.$left;
+        
+    }
+    div.poss{
+        
+        float:left;
+        position:relative;
+        
+        
+    }
+    div.flex{
+        display: flex;
+        
+    }
+    div.marg{
+        display: flex;
+        margin-top: variables.$top ;
+    }
+    h2.est{
+        margin-top: variables.$top;
+    }
+    h2.cont{
+        margin-top: variables.$top2;
+    }
+    img.h1{
+        padding-left: 10%
+    }
+    h1.h1{
+        padding-left: 10%
+    }
+    
+}

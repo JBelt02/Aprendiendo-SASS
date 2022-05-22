@@ -1,0 +1,62 @@
+body {
+  background-image: url("fondo.jpg");
+}
+body div.pos {
+  float: left;
+  position: relative;
+  margin-left: 30%;
+}
+body div.poss {
+  float: left;
+  position: relative;
+}
+body div.flex {
+  display: flex;
+}
+body div.marg {
+  display: flex;
+  margin-top: 5%;
+}
+body h2.est {
+  margin-top: 5%;
+}
+body h2.cont {
+  margin-top: 15%;
+}
+body img.h1 {
+  padding-left: 10%;
+}
+body h1.h1 {
+  padding-left: 10%;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*# sourceMappingURL=cv.css.map */

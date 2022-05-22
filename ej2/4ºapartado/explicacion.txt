@@ -1,0 +1,1 @@
+Para generar una pagina u otra tendras que cambiar el valor en el scss de la variable en true o false para poder generar un tipo u otro . 
