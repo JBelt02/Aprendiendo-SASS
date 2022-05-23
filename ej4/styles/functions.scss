@@ -1,0 +1,9 @@
+@use 'vars';
+@function colorSectionTitle ($i){
+     name:nth-child(#{$i}){
+        color:nth(vars.$colors,$i);
+     }
+        
+    
+    @return ;
+}

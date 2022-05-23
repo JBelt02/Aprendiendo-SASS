@@ -1,0 +1,29 @@
+section{
+    .section-title-1{
+        margin-top: 5%;
+    }
+    .section__list{
+        .section__list-item{
+            margin-top: 2%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "left right";
+           .left.name{
+            font-weight: bold;
+           }
+           .right.name{
+            font-weight: bold;
+           }
+        }
+    }
+    .section-title-2{
+        margin-top: 5%;
+    }
+    .section-title-3{
+        margin-top: 5%;
+    }
+    .section-title-4{
+        margin-top: 5%;
+    }
+}

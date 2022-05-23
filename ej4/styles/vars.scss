@@ -1,0 +1,17 @@
+$black : #181212; 
+$white : #f0e8e8;
+$i : true ; 
+$colors:green , blue , pink , yellow , red  ; 
+/*! Para Cambiar el color de la pagina tendra que cambiar el valor de la variable $i de "true"(para color oscuro) y "false" (para color claro) */
+@if $i {
+    body{
+        background-color: $black;
+        color : white;
+    }
+}
+@else{
+    body{
+        background-color: $white;
+        color : black;
+    }
+}

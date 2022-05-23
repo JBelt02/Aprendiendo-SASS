@@ -1,0 +1,32 @@
+section .section-title-1 {
+  margin-top: 5%;
+}
+section .section__list .section__list-item {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+}
+section .section__list .section__list-item .left.name {
+  font-weight: bold;
+}
+section .section__list .section__list-item .right.name {
+  font-weight: bold;
+}
+section .section-title-2 {
+  margin-top: 5%;
+}
+section .section-title-3 {
+  margin-top: 5%;
+}
+section .section-title-4 {
+  margin-top: 5%;
+}
+
+/*! Para Cambiar el color de la pagina tendra que cambiar el valor de la variable $i de "true"(para color oscuro) y "false" (para color claro) */
+body {
+  background-color: #181212;
+  color: white;
+}
+
+/*# sourceMappingURL=cv.css.map */
